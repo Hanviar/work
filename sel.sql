@@ -16,6 +16,6 @@ where artist_name not like '% %';
 
 select songs_name from songs
 where lower(songs_name) not like '%мой%' or lower(songs_name) not like '%my%'
-or lower(songs_name) like 'мой_%_%' or lower(songs_name) like 'my_%_%'
-or lower(songs_name) like '%_%_мой' or lower(songs_name) like '%_%_my'
-or lower(songs_name) like '%_мой_%' or lower(songs_name) like '%_my_%';
+or lower(songs_name) like 'мой %' or lower(songs_name) like 'my %'
+or lower(songs_name) like '% мой' or lower(songs_name) like '% my'
+or lower(songs_name) like '% мой %' or lower(songs_name) like '% my %';

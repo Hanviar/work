@@ -5,7 +5,7 @@ select songs_name, duration from songs
 order by duration desc
 limit 1;
 
-select song_name from songs
+select songs_name from songs
 where duration >= 3.5*60;
 
 select collection_name, year_of from collection

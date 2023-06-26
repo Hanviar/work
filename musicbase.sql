@@ -14,7 +14,6 @@ create table if not exist GenreArtist(
 create table if not exist album(
     id serial primary key,
     album_name varchar(150) not null,
-    album_year integer not null
 );
 create table if not exist ArtistAlbum(
     artist_id integer references artist(id),

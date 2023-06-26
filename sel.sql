@@ -14,5 +14,5 @@ where year_of between 2018 and 2021;
 select artist_name from artist
 where artist_name not like '% %';
 
-select song_name from songs
-where lower(song_name) like '%мой%' or lower(song_name) like '%my%';
+select songs_name from songs
+where lower(songs_name) like '%мой%' or lower(songs_name) like '%my%';

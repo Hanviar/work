@@ -28,7 +28,7 @@ insert into album (album_name, year_of) values
   ('Load', 1994),
   ('Shadow Kingdom', 1970),
   ('Жаль нет ружья', 2002),
-  ('Снегири и суперклей', 20018),
+  ('Снегири и суперклей', 2018),
   ('Full sircle', 2020),
   ('Band of Gypsys', 2019);
 insert into artistalbum (artist_id, album_id) values
@@ -51,7 +51,7 @@ insert into songs(songs_name, duration, album_id) values
   ('Водяной', 258, 5),
   ('Мертвый анархист', 331, 5),
   ('Медведь', 241, 5),
-  ('Снегири и суперклей', 721 6),
+  ('Снегири и суперклей', 721, 6),
   ('Люби себя люби', 321, 6),
   ('Lay Me Down', 253, 7),
   ('We Gotta Live Together', 216,  8),

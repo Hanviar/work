@@ -22,15 +22,15 @@ insert into GenreArtist(genre_id, artist_id) values
   ('2,6'),
   ('3,7'),
   ('5,8');
-insert into album (album_name) values
-  ('The Massacre'),
-  ('Encore'),
-  ('Load'),
-  ('Shadow Kingdom'),
-  ('Жаль нет ружья'),
-  ('Снегири и суперклей'),
-  ('Full sircle'),
-  ('Band of Gypsys');
+insert into album (album_name, year_of) values
+  ('The Massacre', 1998),
+  ('Encore', 2002),
+  ('Load', 1994),
+  ('Shadow Kingdom', 1970),
+  ('Жаль нет ружья', 2002),
+  ('Снегири и суперклей', 2006),
+  ('Full sircle', 1970),
+  ('Band of Gypsys', 1986);
 insert into artistalbum (artist_id, album_id) values
   ('1,1'),
   ('2,2'),

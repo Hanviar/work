@@ -24,13 +24,13 @@ insert into GenreArtist(genre_id, artist_id) values
   ('5,8');
 insert into album (album_name, year_of) values
   ('The Massacre', 1998),
-  ('Encore', 2002),
+  ('Encore', 2019),
   ('Load', 1994),
   ('Shadow Kingdom', 1970),
   ('Жаль нет ружья', 2002),
-  ('Снегири и суперклей', 2006),
-  ('Full sircle', 1970),
-  ('Band of Gypsys', 1986);
+  ('Снегири и суперклей', 20018),
+  ('Full sircle', 2020),
+  ('Band of Gypsys', 2019);
 insert into artistalbum (artist_id, album_id) values
   ('1,1'),
   ('2,2'),

@@ -34,6 +34,6 @@ create table if not exists collection(
 );
 create table if not exists songscollection(
     songs_id integer references songs(id),
-    collection_id intenger references collection(id),
+    collection_id integer references collection(id),
     constraint pk_songscollection primary key (songs_id, collection_id)
 );

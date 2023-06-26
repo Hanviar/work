@@ -18,4 +18,5 @@ select songs_name from songs
 where lower(songs_name) not like '%мой%' or lower(songs_name) not like '%my%'
 or lower(songs_name) like 'мой %' or lower(songs_name) like 'my %'
 or lower(songs_name) like '% мой' or lower(songs_name) like '% my'
-or lower(songs_name) like '% мой %' or lower(songs_name) like '% my %';
+or lower(songs_name) like '% мой %' or lower(songs_name) like '% my %'
+or lower(songs_name) like 'мой' or lower(songs_name) like 'my';
